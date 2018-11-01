@@ -1,0 +1,186 @@
+[
+ {
+   "Scheme Code": 119551,
+   "ISIN Growth": "INF209KA12Z1",
+   "ISIN Div Reinvestment": "INF209KA13Z9",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund  - Direct Plan-Dividend",
+   "Net Asset Value": 146.5481,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 119552,
+   "ISIN Growth": "INF209K01YM2",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan-Monthly Dividend",
+   "Net Asset Value": 106.3327,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 119553,
+   "ISIN Growth": "INF209K01YO8",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan-Quarterly Dividend",
+   "Net Asset Value": 103.7873,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 108272,
+   "ISIN Growth": "INF209K01LX6",
+   "ISIN Div Reinvestment": "INF209KA11Z3",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Dividend",
+   "Net Asset Value": 154.0458,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 108273,
+   "ISIN Growth": "INF209K01LV0",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Growth",
+   "Net Asset Value": 227.4587,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 110282,
+   "ISIN Growth": "INF209K01LU2",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Monthly Dividend",
+   "Net Asset Value": 104.8599,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 108274,
+   "ISIN Growth": "INF209K01LN7",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Regular Plan-Quarterly Dividend",
+   "Net Asset Value": 102.4575,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 103176,
+   "ISIN Growth": "INF209K01LT4",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Growth",
+   "Net Asset Value": 341.4475,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 110490,
+   "ISIN Growth": "INF209K01LR8",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Monthly Dividend",
+   "Net Asset Value": 104.7238,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 106157,
+   "ISIN Growth": "INF209K01LS6",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund - Retail Plan-Quarterly Dividend",
+   "Net Asset Value": 105.0641,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 119550,
+   "ISIN Growth": "INF209K01YN0",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Banking & PSU Debt Fund- Direct Plan-Growth",
+   "Net Asset Value": 230.8841,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 112015,
+   "ISIN Growth": "INF209K01KM1",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Aditya Birla Sun Life Treasury Optimizer Plan - Discipline Advantage Plan - Growth",
+   "Net Asset Value": 206.0699,
+   "Date": "21-Jun-2018"
+ },
+ {
+   "Scheme Code": 128953,
+   "ISIN Growth": "INF846K01NG6",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Bonus Option",
+   "Net Asset Value": 1289.4075,
+   "Date": "18-May-2015"
+ },
+ {
+   "Scheme Code": 117447,
+   "ISIN Growth": "-",
+   "ISIN Div Reinvestment": "INF846K01CC8",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Daily Dividend Option",
+   "Net Asset Value": 1008.0388,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 128952,
+   "ISIN Growth": "INF846K01NF8",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Direct Plan - Bonus Option",
+   "Net Asset Value": 1532.8272,
+   "Date": "14-Jun-2017"
+ },
+ {
+   "Scheme Code": 120437,
+   "ISIN Growth": "-",
+   "ISIN Div Reinvestment": "INF846K01CU0",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Direct Plan - Daily Dividend Option",
+   "Net Asset Value": 1008.0388,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 120438,
+   "ISIN Growth": "INF846K01CR6",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Direct Plan - Growth Option",
+   "Net Asset Value": 1664.9114,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 120439,
+   "ISIN Growth": "INF846K01CT2",
+   "ISIN Div Reinvestment": "INF846K01CS4",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Direct Plan - Monthly Dividend Option",
+   "Net Asset Value": 1012.3712,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 120436,
+   "ISIN Growth": "INF846K01CV8",
+   "ISIN Div Reinvestment": "INF846K01CW6",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Direct Plan - Weekly Dividend Option",
+   "Net Asset Value": 1007.5652,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 117446,
+   "ISIN Growth": "INF846K01CB0",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Growth option",
+   "Net Asset Value": 1646.1321,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 117449,
+   "ISIN Growth": "INF846K01CF1",
+   "ISIN Div Reinvestment": "INF846K01CG9",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Monthly Dividend Option",
+   "Net Asset Value": 1011.8807,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 117448,
+   "ISIN Growth": "INF846K01CD6",
+   "ISIN Div Reinvestment": "INF846K01CE4",
+   "Scheme Name": "Axis Banking & PSU Debt Fund - Weekly Dividend option",
+   "Net Asset Value": 1007.5563,
+   "Date": "23-Oct-2018"
+ },
+ {
+   "Scheme Code": 138573,
+   "ISIN Growth": "INF223J01VH1",
+   "ISIN Div Reinvestment": "-",
+   "Scheme Name": "DHFL Pramerica Banking and PSU Debt fund - Bonus",
+   "Net Asset Value": 13.3974,
+   "Date": "01-Aug-2016"
+ }
+]
