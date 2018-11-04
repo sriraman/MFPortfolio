@@ -9,8 +9,15 @@ export default class MutualFundCard extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      quantity: ''
+      quantity: '',
+      NAV: ''
     }
+  }
+
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      NAV: nextProps.fund.NAV.toString()
+    })
   }
 
   static propTypes = {
@@ -19,12 +26,15 @@ export default class MutualFundCard extends Component {
   }
 
   render () {
-    return <Modal isOpen={this.props.isOpen} onClosed={() => this.props.onClosed()} style={[styles.modal, { height: 250 }]} position={"center"}>
+    console.log(this.state)
+    return <Modal isOpen={this.props.isOpen} onClosed={() => this.props.onClosed()} style={[styles.modal, { height: 320 }]} position={"center"}>
       <Text style={styles.title} >{this.props.fund.schemeName} </Text>
       <Text style={styles.subTitle} >Scheme Code: {this.props.fund.schemeCode} </Text>
-      <Text style={styles.currentNAV}>Current NAV: {this.props.fund.NAV} </Text>
+      <Text style={[styles.subTitle, {textAlign: 'left', paddingLeft: 20}]}>Quantity </Text>
       <TextInput style={styles.quantity} keyboardType='number-pad' placeholder="Quantity" onChangeText={(text) => this.setState({ quantity: text })}></TextInput>
-      <Button title="Submit" onPress={() => this.props.onAddOrder(this.state.quantity)}/>
+      <Text style={[styles.subTitle, {textAlign: 'left', paddingLeft: 20}]}>Amount </Text>
+      <TextInput style={styles.quantity} keyboardType='number-pad' placeholder="NAV" onChangeText={(text) => this.setState({ NAV: text })} value={this.state.NAV}></TextInput>
+      <Button title="Submit" onPress={() => this.props.onAddOrder(this.state.quantity, this.state.NAV)}/>
     </Modal>
   }
 }

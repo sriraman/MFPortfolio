@@ -7,7 +7,9 @@ import MutualFundCard from '../Components/MutualFundCard'
 import MutualFundsActions from '../Redux/MutualFundsRedux'
 import CustomizeViewItem from '../Components/CustomizeViewItem'
 import AddOrderModal from '../Components/AddOrderModal'
+import PortfolioItem from '../Components/PortfolioItem'
 import Modal from 'react-native-modalbox';
+import _ from 'lodash';
 
 // Styles
 import styles from './Styles/LaunchScreenStyles'
@@ -65,9 +67,11 @@ class HomeScreen extends Component {
     })
   }
 
-  _onAddOrder (quantity) {
+  _onAddOrder (quantity, nav) {
     let order = this.state.modalText
     order['quantity'] = parseInt(quantity)
+    order['NAV'] = parseFloat(nav)
+    order['amount'] = parseInt(quantity) * parseFloat(nav)
     this.props.addOrder(order)
     this.setState({
       viewAddOrderModal: false
@@ -76,6 +80,7 @@ class HomeScreen extends Component {
 
   render () {
     console.log(this.props)
+    console.log(this.state)
     let {
       list,
       view
@@ -94,7 +99,12 @@ class HomeScreen extends Component {
             />
           </View>
           <View tabLabel="Portfolio">
-            
+            <FlatList
+              data={this.props.portfolio}
+              keyExtractor={this._keyExtractor}
+              renderItem={({item}) => <PortfolioItem orders={item} />}
+              removeClippedSubviews={false}
+            />
           </View>
         </ScrollableTabView>
         <Modal isOpen={this.state.viewCustomizeModal} onClosed={() => this.setState({viewCustomizeModal: false})} style={[styles.modal, { height: 300 }]} position={"bottom"}>
@@ -111,9 +121,15 @@ class HomeScreen extends Component {
   }
 }
 
+const getPortfolio = (orders) => {
+  orders = _.groupBy(orders, (order) => order.schemeCode)
+  return Object.keys(orders).map(i => orders[i])
+}
+
 const mapStateToProps = (state) => {
   return {
-    mutualFunds: state.mutualFunds
+    mutualFunds: state.mutualFunds,
+    portfolio: getPortfolio(state.mutualFunds.orders)
   }
 }
 

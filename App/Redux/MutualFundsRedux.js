@@ -1,4 +1,5 @@
 import { createReducer, createActions } from 'reduxsauce'
+import { createSelector } from 'reselect'
 import Immutable from 'seamless-immutable'
 import MutualFunds from '../mfList.json'
 
