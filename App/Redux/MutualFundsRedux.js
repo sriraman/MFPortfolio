@@ -6,6 +6,7 @@ import MutualFunds from '../mfList.json'
 
 const { Types, Creators } = createActions({
   addMutualFund: [ 'fund' ],
+  addOrder: [ 'order' ],
   customizeView: [ 'key', 'value' ]
 })
 
@@ -20,7 +21,8 @@ export const INITIAL_STATE = Immutable({
     "ISIN Growth": false,
     "ISIN Div Reinvestment": false,
     "Net Asset Value": false
-  }
+  },
+  orders: []
 })
 
 /* ------------- Reducers ------------- */
@@ -38,9 +40,16 @@ export const customizeView = (state, { key, value }) => {
   })
 }
 
+export const addOrder = (state, { order }) => {
+  return state.merge({
+    orders: [...state.orders, order]
+  })
+}
+
 /* ------------- Hookup Reducers To Types ------------- */
 
 export const reducer = createReducer(INITIAL_STATE, {
   [Types.ADD_MUTUAL_FUND]: addMutualFund,
-  [Types.CUSTOMIZE_VIEW]: customizeView
+  [Types.CUSTOMIZE_VIEW]: customizeView,
+  [Types.ADD_ORDER]: addOrder
 })

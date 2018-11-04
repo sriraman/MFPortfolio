@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import styles from './Styles/MutualFundCardStyles'
 
 export default class MutualFundCard extends Component {
 
   static propTypes = {
-    fund: PropTypes.object
+    fund: PropTypes.object,
+    onAddMF: PropTypes.func
   }
 
   render () {
@@ -26,6 +27,7 @@ export default class MutualFundCard extends Component {
         {(view['Net Asset Value'] === true) &&
           <Text style={styles.extraDataText}>Net Asset Value : {fund['Net Asset Value']}</Text>
         }
+        <Button onPress={() => this.props.onAddMF(fund)} title="Add to Portfolio" color='#aaa' />
       </View>
     </View>
   }
